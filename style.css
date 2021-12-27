@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+* {
+    background-image: url(https://freefrontend.com/assets/img/css-background-patterns/underwater-css-pattern.png);
+    background-size: cover;
+}
+
+h1 {
+    text-align: center;
+}
+
+
+
+main {
+    font-family: 'Playfair Display', serif;
+    display: grid;
+    justify-items: center;
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    
+    
+
+}
+
+h2{
+    color: black;
+    
+}
+
+.prev-btn,
+.next-btn {
+    color: blue;
+    background: transparent;
+    border-color: transparent;
+    font-size: 20px;
+}
+
+.prev-btn:hover,
+.next-btn:hover {
+    color: black;
+}
+
+#person-img {
+    border-radius: 50px;
+    width: 300px;
+    height: 300px;
+    
+    
+    
+}
+
+
